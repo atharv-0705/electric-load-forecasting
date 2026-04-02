@@ -1,0 +1,33 @@
+### Create `.gitignore` file
+Create a file named `.gitignore` in your project root with this content:
+```
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+.venv/
+
+# Model files (too large for GitHub)
+*.pkl
+*.h5
+
+# Database files
+db/*.json
+db/*.csv
+
+# Large datasets
+*.csv
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
