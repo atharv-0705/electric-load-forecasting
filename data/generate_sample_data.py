@@ -8,7 +8,7 @@ Generates realistic synthetic hourly power load data with:
   - Random noise
 """
 
-import numpy as np
+import numpy as np # for data generation
 import pandas as pd
 from datetime import datetime
 
