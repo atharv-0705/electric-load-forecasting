@@ -4,7 +4,7 @@ Lightweight file-based persistence (JSON + joblib).
 Stores run history, model configs, and forecast exports.
 """
 
-import json, os, joblib
+import json, os, joblib # for model serialization
 import pandas as pd
 from datetime import datetime
 
