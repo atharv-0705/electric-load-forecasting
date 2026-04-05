@@ -4,7 +4,7 @@ ANN for residual learning — optimized for speed.
 Default: 100 epochs, small network, early stopping after 10 rounds.
 """
 
-import numpy as np
+import numpy as np 
 import warnings
 warnings.filterwarnings("ignore")
 
@@ -15,7 +15,7 @@ import os
 
 
 class ANNModel:
-    def __init__(self, layers=(64, 32, 16), epochs: int = 100, lr: float = 0.001):
+    def __init__(self, layers=(64, 32, 16), epochs: int = 100, lr: float = 0.001): # small network for speed
         self.layers   = layers
         self.epochs   = epochs
         self.lr       = lr
