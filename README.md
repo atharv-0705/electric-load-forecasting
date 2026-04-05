@@ -183,7 +183,7 @@ electric-load-forecasting/
 ├── app.py                    # Home page & entry point
 ├── requirements.txt          # All dependencies
 ├── README.md                 # This file
-├── .gitignore
+├── .gitignore                # Ignored file container
 │
 ├── .streamlit/
 │   └── config.toml           # Dark theme configuration
