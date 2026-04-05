@@ -17,16 +17,16 @@ st.set_page_config(page_title="Model Comparison", layout="wide")
 
 st.markdown("""
 <style>
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&display=swap');
-html,body,[class*="css"],.stApp{font-family:'JetBrains Mono',monospace!important}
-.stApp{background:#0D1117!important;color:#E6EDF3}
-section[data-testid="stSidebar"]{background:#0A0F14!important}
-.imp{background:rgba(124,252,0,.08);border:1px solid #7CFC0044;border-radius:10px;
-     padding:1.4rem;text-align:center}
-.iv{font-size:2.2rem;font-weight:700;color:#7CFC00}
-.il{font-size:.72rem;color:#8B949E;text-transform:uppercase;letter-spacing:1px}
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&display=swap'); # monospace font for code-like look
+html,body,[class*="css"],.stApp{font-family:'JetBrains Mono',monospace!important} # apply to all Streamlit elements for consistent look
+.stApp{background:#0D1117!important;color:#E6EDF3}                                # dark background with light text for contrast
+section[data-testid="stSidebar"]{background:#0A0F14!important}                    # darker sidebar for separation
+.imp{background:rgba(124,252,0,.08);border:1px solid #7CFC0044;border-radius:10px; # light green highlight for improvement metrics
+     padding:1.4rem;text-align:center}                 
+.iv{font-size:2.2rem;font-weight:700;color:#7CFC00}                                 # large bright green for improvement values
+.il{font-size:.72rem;color:#8B949E;text-transform:uppercase;letter-spacing:1px}    # smaller, muted text for labels
 </style>
-""", unsafe_allow_html=True)
+""", unsafe_allow_html=True)                                                      # custom CSS for styling the page
 
 st.markdown("## Model Comparison & Accuracy Metrics")
 
