@@ -3,7 +3,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-from datetime import timedelta
+from datetime import timedelta # datetime manipulation for future forecasting
 import sys, os
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
