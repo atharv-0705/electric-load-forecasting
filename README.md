@@ -138,6 +138,10 @@ Hybrid_Forecast(t) = ARIMA_prediction(t) + ANN_correction(t)
 
 This combination consistently outperforms either model alone.
 
+### Train in the app
+The app already trains the model from scratch when users click "Start Training".
+This is the cleanest approach for cloud deployment — no pre-trained model file needed.
+
 ---
 
 ## ✨ Features
