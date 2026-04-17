@@ -31,3 +31,7 @@ Thumbs.db
 # IDE
 .vscode/
 .idea/
+
+# Data files
+Dataset/*power_load_datset_large.csv
+Dataset/*power_load_datset.csv
