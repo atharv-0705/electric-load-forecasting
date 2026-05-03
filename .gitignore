@@ -35,3 +35,9 @@ Thumbs.db
 # Data files
 Dataset/*power_load_datset_large.csv
 Dataset/*power_load_datset.csv
+
+# Report files
+Major II REPORT FILE.docx.pdf
+
+# Poster 
+image.png
