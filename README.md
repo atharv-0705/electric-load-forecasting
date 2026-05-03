@@ -14,7 +14,7 @@ https://electric-load-forecasting.streamlit.app/
 > A production-grade short-term electric power load forecasting system combining classical **ARIMA** time-series modelling with an **Artificial Neural Network (ANN)** for nonlinear residual correction — served via an interactive **Streamlit** dashboard.
 
 ## Poster
-![alt text](image.png)
+![Poster](image.png)
 ---
 
 ## 📋 Table of Contents
