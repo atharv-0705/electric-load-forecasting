@@ -331,6 +331,7 @@ Expected performance on the included 5-year dataset:
 ## 👨‍💻 Author
 
 **Atharv**
+- LinkeDin: [Atharv Gupta](https://www.linkedin.com/in/atharv-gupta-45a37b36a/)
 - GitHub: [@atharv-0705](https://github.com/atharv-0705)
 - Project: Electric Power Load Forecasting — Academic Project
 
