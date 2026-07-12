@@ -31,7 +31,6 @@ https://electric-load-forecasting.streamlit.app/
 - [Dashboard Pages](#-dashboard-pages)
 - [Dataset](#-dataset)
 - [Results](#-results)
-- [Project Timeline](#-project-timeline)
 - [Author](#-author)
 
 ---
@@ -315,18 +314,6 @@ Expected performance on the included 5-year dataset:
 | **MAE** | ~9–12 MW | ~5–7 MW | ~42% |
 | **R²** | ~0.88 | ~0.96+ | +8 pts |
 
----
-
-## 📅 Project Timeline
-
-| Week | Phase | Deliverables |
-|------|-------|-------------|
-| **Week 1** | Data & Architecture | Dataset pipeline, preprocessing, EDA charts |
-| **Week 2** | Model Development | ARIMA module, ANN module, Hybrid pipeline |
-| **Week 3** | Frontend Integration | All 6 Streamlit pages, charts, metrics |
-| **Week 4** | Testing & Polish | Unit tests, optimization, documentation |
-
----
 
 ## 👨‍💻 Author
 
